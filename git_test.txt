@@ -251,16 +251,7 @@ total 4
 $ git config --global user.name "test_git"
 
 121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
-$ git config --global user.name "suj0309@naver.com"
-
-121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
-$ git config --global user.email "suj0309@naver.com"
-
-121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
-$ git config --global user.name "test_git"
-
-121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
-$ git config --global user.email "suj0309@naver.com"
+$ git config --global user.email ""
 
 121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
 $ git init
