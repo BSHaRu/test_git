@@ -1,0 +1,300 @@
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ pwd
+/c/Users/121/Desktop/workspace/git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ 약
+bash: 약: command not found
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ dir
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls
+test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -l -a
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -l
+total 1
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -la
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ll
+total 1
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alS
+total 5
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alh
+total 5.0K
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alt
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ touch test1.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ mkdir test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ rmdir test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ mkdir test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ cp test.txt ./test/copy.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ mv test1.txt ./test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ cd test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test
+$ ll
+total 4
+-rw-r--r-- 1 121 197121 1739 Jun 16 10:05 copy.txt
+-rw-r--r-- 1 121 197121    0 Jun 16 10:02 test1.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test
+$ cd ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ rmdir test
+rmdir: failed to remove 'test': Directory not empty
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ cd test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test
+$ rm test1.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test
+$ cd ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ rm -r test
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ cat test.txt
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ pwd
+/c/Users/121/Desktop/workspace/git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ 약
+bash: 약: command not found
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ dir
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls
+test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -l -a
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -l
+total 1
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -la
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ll
+total 1
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alS
+total 5
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alh
+total 5.0K
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alt
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ head test.txt
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ pwd
+/c/Users/121/Desktop/workspace/git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ 약
+bash: 약: command not found
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ dir
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ head -n 5 test.txt
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ pwd
+/c/Users/121/Desktop/workspace/git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ tail text.txt
+tail: cannot open 'text.txt' for reading: No such file or directory
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ tail test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ls -alt
+total 5
+drwxr-xr-x 1 121 197121 0 Jun 16 09:41 ./
+-rw-r--r-- 1 121 197121 5 Jun 16 09:41 test.txt
+drwxr-xr-x 1 121 197121 0 Jun 16 09:36 ../
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ vi test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ vi test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ vi test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ mkdir test_git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ mv test.txt
+mv: missing destination file operand after 'test.txt'
+Try 'mv --help' for more information.
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ mv test.txt ./test_git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ ll
+total 0
+drwxr-xr-x 1 121 197121 0 Jun 16 10:33 test_git/
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git
+$ cd test_git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ ll
+total 4
+-rw-r--r-- 1 121 197121 1782 Jun 16 10:20 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ git config --global user.name "test_git"
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ git config --global user.name "suj0309@naver.com"
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ git config --global user.email "suj0309@naver.com"
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ git config --global user.name "test_git"
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ git config --global user.email "suj0309@naver.com"
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git
+$ git init
+Initialized empty Git repository in C:/Users/121/Desktop/workspace/git/test_git/.git/
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git (master)
+$ git remote add origin https://github.com/BSHaRu/test_git.git
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git (master)
+$ git remote -v
+origin  https://github.com/BSHaRu/test_git.git (fetch)
+origin  https://github.com/BSHaRu/test_git.git (push)
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git (master)
+$ git add .
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git (master)
+$ git commit -m 'ADD FIRST COMMIT'
+[master (root-commit) da70dba] ADD FIRST COMMIT
+ 1 file changed, 66 insertions(+)
+ create mode 100644 test.txt
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git (master)
+$ git push origin master
+
+
+
+121@DESKTOP-DP401JQ MINGW64 ~/Desktop/workspace/git/test_git (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 499 bytes | 499.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BSHaRu/test_git.git
+ * [new branch]      master -> master
